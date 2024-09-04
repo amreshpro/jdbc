@@ -20,7 +20,7 @@ Connection connection = JdbcUti.getConnection();
 		
 	int rowAffected = 	ptsmt.executeUpdate();
 	if(rowAffected ==0) {	
-		System.out.println("Registration unsuccessfull");
+		System.out.println("Registration unsuccessfull! Something went gone wrong!");
 	}else {
 System.out.println("Registration successfull");
 	}
